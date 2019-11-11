@@ -5,16 +5,26 @@
 {% block h1 %} <h1> All bloggs</h1> <hr> {% endblock %}
 
 {% block content %}
-{% if blog_list %}
-    <ul>
-        {% for blog in blog_list %}
-        <li>
-            <a href="">{{ blog.title }}</a> {{blog.publication_date}} - <a href="">{{blog.author}}</a>
-        </li>
-        {% endfor %}
-    </ul>
-{% else %}
-    <p>There are not blogs.</p>
-{% endif %}
+
+    <form action="">
+        {{ form.search }}
+        {{ form.sort_field }}
+        <input type="submit" value="Сортировать">
+    </form>
+    <hr>
+
+    {% if blog_list %}
+        <ul>
+            {% for blog in blog_list %}
+            <li>
+                <a href="">{{ blog.title }}</a> {{blog.publication_date}} - <a href="">{{blog.author}}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>There are not blogs.</p>
+    {% endif %}
 <hr>
+
+    <br>
 {% endblock %}
