@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bbd7964-787c-4b97-83f6-c18266e3bb1a" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/mini_blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mini_blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/mini_blog/blog/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_blog/blog/migrations/0002_auto_20191105_1527.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_blog/blog/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_blog/blog/templates/base_generic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_blog/blog/templates/blog/blog_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_blog/blog/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini_blog/blog/templates/registration/logged_out.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mini_blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mini_blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_blog/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_blog/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_blog/blog/templates/all_bloggers.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_blog/blog/templates/blog/all_bloggers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_blog/blog/templates/blog_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_blog/blog/templates/blog/blog_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_blog/blog/templates/blog_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_blog/blog/templates/home.html" beforeDir="false" />
+>>>>>>> 9180f8277820ee0dd95da970e845641621c3b12b
       <change beforePath="$PROJECT_DIR$/mini_blog/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_blog/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mini_blog/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mini_blog/blog/views.py" afterDir="false" />
     </list>
@@ -13,12 +31,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="CSS File" />
+>>>>>>> 9180f8277820ee0dd95da970e845641621c3b12b
         <option value="HTML File" />
         <option value="Python Script" />
       </list>
@@ -34,13 +60,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+=======
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Люцко Александр\Proekts\DIY_blog\mini_blog\blog\templates\blog" />
+    </key>
+>>>>>>> 9180f8277820ee0dd95da970e845641621c3b12b
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -54,7 +91,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.views">
     <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mini_blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,6 +114,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mini_blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mini_blog/blog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mini_blog/blog/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -91,11 +155,18 @@
       <workItem from="1572713429861" duration="3020000" />
       <workItem from="1572763654041" duration="3537000" />
       <workItem from="1572800625955" duration="4030000" />
+<<<<<<< HEAD
       <workItem from="1573492873657" duration="4541000" />
       <workItem from="1573498959047" duration="374000" />
       <workItem from="1573541051848" duration="19000" />
       <workItem from="1573894392745" duration="104000" />
       <workItem from="1574088666418" duration="212000" />
+=======
+      <workItem from="1573462307426" duration="2830000" />
+      <workItem from="1573541092915" duration="2694000" />
+      <workItem from="1573637154584" duration="3811000" />
+      <workItem from="1573641126558" duration="2050000" />
+>>>>>>> 9180f8277820ee0dd95da970e845641621c3b12b
     </task>
     <task id="LOCAL-00001" summary="coomit data base">
       <created>1572884919986</created>
@@ -104,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572884919987</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit urls.py">
+      <created>1573541326095</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573541326095</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +217,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="coomit data base" />
-    <option name="LAST_COMMIT_MESSAGE" value="coomit data base" />
+    <MESSAGE value="Commit urls.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit urls.py" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DIY_blog$views.coverage" NAME="views Coverage Results" MODIFIED="1573639001127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mini_blog/blog" />
+  </component>
+>>>>>>> 9180f8277820ee0dd95da970e845641621c3b12b
 </project>
