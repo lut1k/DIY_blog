@@ -7,7 +7,6 @@
     {% if blogauthor_list %}
         <ul>
             {% for author in blogauthor_list %}
-                <!--TODO допилить ссылка blogs-by-author-->
                 <li>
                     <a href="{% url 'blogs-by-author' author.pk %}">{{ author }}</a>
                 </li>
