@@ -3,8 +3,6 @@ from datetime import date
 from django.urls import reverse #Used to generate URLs by reversing the URL patterns
 from django.contrib.auth.models import User #Blog author or commenter
 
-# Create your models here.
-
 
 class BlogAuthor(models.Model):
     user = models.OneToOneField(User, on_delete=models.SET_NULL, null=True)
@@ -63,7 +61,7 @@ class Comment(models.Model):
     def __str__(self):
         len_title = 75
         if len(self.description) > len_title:
-            titlestring = self.description[:len_title] + '...'
+            title_string = self.description[:len_title] + '...'
         else:
-            titlestring = self.description
-        return titlestring
+            title_string = self.description
+        return title_string

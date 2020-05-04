@@ -1,4 +1,4 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render
 from . import models
 from django.views import generic
 from django.shortcuts import get_object_or_404
@@ -76,7 +76,7 @@ class BlogCommentCreate(LoginRequiredMixin, CreateView):
 
     def form_valid(self, form):
         """
-        Add author and associated blog to form data befor setting it as valid (so it is saved to model)
+        Add author and associated blog to form data before setting it as valid (so it is saved to model)
         """
         form.instance.author = self.request.user
         form.instance.blog = get_object_or_404(models.Blog, pk=self.kwargs['pk'])

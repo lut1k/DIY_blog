@@ -5,6 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
+web_django/static/*
+files/media/*
 
 # Distribution / packaging
 .Python
@@ -91,8 +93,12 @@ ipython_config.py
 #   install all needed dependencies.
 #Pipfile.lock
 
-# celery beat schedule file
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
 celerybeat-schedule
+celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
@@ -123,3 +129,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.idea/*
+.vscode/*
+
