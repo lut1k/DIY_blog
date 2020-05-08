@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    networks:
+      - main
+
+  DIY_blog:
+    build: .
+    image: lut1k/diy_blog:latest
+    container_name: DIY_blog
+    command: sh -c "sleep 15; python manage.py migrate --no-input && python manage.py runserver 0.0.0.0:8000;"
+    ports:
+      - "8000:8000"
+    networks:
+      - main
+    depends_on:
+      - postgres
+
+networks:
+  main:

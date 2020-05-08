@@ -70,7 +70,7 @@ class BlogCommentCreate(LoginRequiredMixin, CreateView):
         """
         Add associated blog to form template so can display its title in HTML
         """
-        context = super(BlogCommentCreate, self).get_context_data(**kwargs)
+        context = super().get_context_data(**kwargs)
         context['blog'] = get_object_or_404(models.Blog, pk=self.kwargs['pk'])
         return context
 

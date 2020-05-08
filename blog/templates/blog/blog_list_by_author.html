@@ -11,11 +11,11 @@
     {% if blog_list %}
         <h3>Blogs list</h3>
         <ul>
-            <li>
-                {% for blog in blog_list %}
-                    <a href="{{ blog.get_absolute_url }}">{{ blog.title }}</a> ({{ blog.publication_date }})
-                {% endfor %}
-            </li>
+            {% for blog in blog_list %}
+               <li>
+                   <a href="{{ blog.get_absolute_url }}">{{ blog.title }}</a> ({{ blog.publication_date }})
+               </li>
+            {% endfor %}
         </ul>
     {% else %}
         <p>This blogger hasn't posted anything yet.</p>
